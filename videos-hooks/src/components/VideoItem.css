@@ -1,0 +1,10 @@
+.video-item{
+    display: flex !important;
+    align-items: center !important;
+    /* 让item可以点击 */
+    cursor: pointer;
+}
+/* 添加.item会让我们的规则的优先度大于默认的规则 */
+.video-item.item img{ 
+    max-width: 180px;
+}
